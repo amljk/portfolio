@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Ana Maljkovic`,
+    description: `Welcome to the portfolio of Ana Maljkovic, a Toronto-based developer.`,
+    author: `@anamaljkovic`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,6 +25,13 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `jn4hsfhi0ynz`,
+        accessToken: `KP4F9OpbA1k2BXtrH4pWQ2tCCKxL9-brk6_j9KAhyOA`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
