@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Harmonia Sans Pro";
+  src: url("../assets/fonts/HarmoniaSansProCyr-Regular_gdi.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Harmonia Sans Pro";
+  src: url("../assets/fonts/HarmoniaSansProCyr-SemiBd_gdi.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Basier Circle";
+  src: url("../assets/fonts/basiercircle-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Basier Circle";
+  src: url("../assets/fonts/basiercircle-medium-webfont.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Basier Circle";
+  src: url("../assets/fonts/basiercircle-semibold-webfont.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Basier Circle";
+  src: url("../assets/fonts/basiercircle-bold-webfont.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}

@@ -34,6 +34,18 @@ module.exports = {
         accessToken: `KP4F9OpbA1k2BXtrH4pWQ2tCCKxL9-brk6_j9KAhyOA`,
       },
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Titillium Web"],
+        },
+        custom: {
+          families: ["Harmonia Sans Pro:n4,n6", "Basier Circle:n4,n5,n6,n7"],
+          urls: ["/fonts.css"],
+        },
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
