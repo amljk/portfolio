@@ -16,7 +16,6 @@ Menu.defaultProps = {
     { title: "Home", slug: "" },
     { title: "About", slug: "about" },
     { title: "Work", slug: "work" },
-    { title: "The Lab", slug: "work" },
     { title: "Blog", slug: "blog" },
     // { title: "Contact", slug: "contact" },
   ],
