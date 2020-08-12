@@ -3,12 +3,12 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout/Layout"
 import SEO from "../components/SEO/SEO"
 // import "./index.css"
-const Work = () => (
+const Lab = () => (
   <Layout>
-    <SEO title="Work" />
-    <div className="work">
-      <h1>Work</h1>
+    <SEO title="Lab" />
+    <div className="lab">
+      <h1>Lab</h1>
     </div>
   </Layout>
 )
-export default Work
+export default Lab

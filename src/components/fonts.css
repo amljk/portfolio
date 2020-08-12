@@ -40,3 +40,10 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../assets/fonts/NotoSerif-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}

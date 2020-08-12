@@ -7,8 +7,11 @@ import Menu from "../Menu/Menu"
 const Header = () => (
   <header
     style={{
-      background: `blue`,
-      marginBottom: `1.45rem`,
+      margin: `2rem auto`,
+      padding: `0 0 1.45rem 0`,
+      maxWidth: `960px`,
+      fontFamily: `Basier Circle`,
+      textAlign: `right`,
     }}
   >
     <Menu></Menu>

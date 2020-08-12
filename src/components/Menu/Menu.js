@@ -4,7 +4,12 @@ import React from "react"
 
 const Menu = ({ items }) =>
   items.map(item => {
-    return <Link to={`/${item.slug}`}>{item.title}</Link>
+    return <Link to={`/${item.slug}`} style={{
+      padding: `0.5rem 0 0.5rem 1rem`,
+      margin: `0 0 0 1rem`,
+      textDecoration: `none`,
+      color: `black`,
+    }}>{item.title}</Link>
   })
 
 Menu.PropTypes = {
@@ -13,11 +18,9 @@ Menu.PropTypes = {
 
 Menu.defaultProps = {
   items: [
-    { title: "Home", slug: "" },
     { title: "About", slug: "about" },
-    { title: "Work", slug: "work" },
-    { title: "Blog", slug: "blog" },
-    // { title: "Contact", slug: "contact" },
+    { title: "Writing", slug: "writing" },
+    { title: "Lab", slug: "lab" },
   ],
 }
 
